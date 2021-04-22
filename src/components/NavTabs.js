@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 
 const NavTabs = () => {
   const location = useLocation();
@@ -25,12 +25,12 @@ const NavTabs = () => {
       </li>
       <li className="nav-item">
         <Link
-          to="/Project"
+          to="/project"
           className={
-            location.pathname === '/Project' ? 'nav-link active' : 'nav-link'
+            location.pathname === '/project' ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
+          Projects
         </Link>
       </li>
       <li className="nav-item">
@@ -43,18 +43,16 @@ const NavTabs = () => {
           Contact
         </Link>
       </li>
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <Link
-          to="/contact/learn"
+          to="/resume"
           className={
-            location.pathname === '/contact/learn'
-              ? 'nav-link active'
-              : 'nav-link'
+            location.pathname === '/resume' ? 'nav-link active' : 'nav-link'
           }
         >
-          Learn
+          Resume
         </Link>
-      </li> */}
+      </li>
     </ul>
   );
 };
