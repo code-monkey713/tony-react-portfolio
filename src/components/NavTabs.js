@@ -25,12 +25,12 @@ const NavTabs = () => {
       </li>
       <li className="nav-item">
         <Link
-          to="/project"
+          to="/portfolio"
           className={
-            location.pathname === '/project' ? 'nav-link active' : 'nav-link'
+            location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'
           }
         >
-          Projects
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">
