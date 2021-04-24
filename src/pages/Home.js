@@ -3,15 +3,55 @@ import React from 'react';
 const Home = () => {
   return (
     <>
-      <section>
-        <div>
-          <h2>My Landing/Home Page</h2>
-          <img className="home-img" src="https://images.unsplash.com/photo-1619105587572-e2c62edf1db2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80" alt="plate of snack" />
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt posuere euismod. Ut pellentesque augue in varius vehicula. Ut leo purus, tempor id lobortis consectetur, tempus sit amet tortor. Integer vehicula nisl venenatis tincidunt pulvinar. Nullam sed libero varius, ultricies risus consectetur, pretium diam. Cras nec felis iaculis, fermentum felis eu, dignissim nibh. Phasellus interdum blandit est ut condimentum. Nunc tincidunt sem nec nisi iaculis semper. Curabitur accumsan efficitur elit, et pellentesque justo suscipit in. Ut tempus dignissim quam, et egestas tellus lacinia at. Curabitur lectus tellus, finibus quis dolor non, aliquet dictum lacus. Nullam posuere lacus ac mauris feugiat iaculis. Proin quis porttitor lectus, id porta augue. Phasellus molestie turpis vitae quam accumsan, ac volutpat lorem congue.
-          </p>
+      <div>
+        <div class="grid grid-cols-3 gap-4">
+        <div style={{width: '100%', margin: 'auto'}}>
+        <div className="contact-grid">
+          <div col={12}>
+            <img
+              src=""
+              alt="avatar"
+              className="avatar-img"
+              />
+
+            <div className="banner-text">
+              <h1>Full Stack Web Developer</h1>
+
+            <hr/>
+
+          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+
+        <div className="social-links">
+
+          {/* LinkedIn */}
+          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          </a>
+
+          {/* Github */}
+          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github-square" aria-hidden="true" />
+          </a>
+
+          {/* Freecodecamp */}
+          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          </a>
+
+          {/* Youtube */}
+          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-youtube-square" aria-hidden="true" />
+          </a>
+
         </div>
-      </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          
+        </div>
+      </div>
     </>
   );
 };
