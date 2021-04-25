@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 const Footer = () => {
   return (
     <Navbar
-      className="d-flex flex-column flex-sm-row align-items-center align-horizontal"
+      className="d-flex flex-column flex-sm-row align-items-center align-horizontal nav-tabs"
       fixed="bottom"
     >
       <Nav.Item>
@@ -11,6 +11,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/tony-tran-developer/"
           className="m-3"
         >
+          <i class="fab fa-linkedin"></i>{' '}
           LinkedIn
         </a>
       </Nav.Item>
@@ -23,6 +24,7 @@ const Footer = () => {
       {' | '}
       <Nav.Item>
         <a href="https://github.com/code-monkey713/" className=" m-3">
+        <i class="fab fa-github-square"></i>{' '}
           GitHub
         </a>
       </Nav.Item>
