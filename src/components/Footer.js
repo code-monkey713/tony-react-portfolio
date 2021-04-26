@@ -1,33 +1,45 @@
-import { Navbar, Nav } from 'react-bootstrap';
+import { Link, useLocation } from 'react-router-dom';
+import cn from 'classnames';
+import { useThemeContext } from '../store';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Footer = () => {
+export const Footer = () => {
+  const [state] = useThemeContext();
+  const location = useLocation();
+
   return (
-    <Navbar
-      className="d-flex flex-column flex-sm-row align-items-center align-horizontal nav-tabs mx-auto"
-      fixed="bottom"
+    <nav
+      className={`navbar navbar-expand navbar-${state.theme} bg-${state.theme} justify-content-between`}
     >
-      <Nav.Item>
-        <a
-          href="https://www.linkedin.com/in/tony-tran-developer/"
-          className="m-3"
-        >
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-      </Nav.Item>
-      {' | '}
-      <Nav.Item>
-        <a href="/" className=" m-3">
-          &copy; 2021 Tony Tran
-        </a>
-      </Nav.Item>
-      {' | '}
-      <Nav.Item>
-        <a href="https://github.com/code-monkey713/" className="m-3">
-          <i class="fab fa-github-square"></i> GitHub
-        </a>
-      </Nav.Item>
-    </Navbar>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mx-auto">
+          <a
+            href="https://www.linkedin.com/in/tony-tran-developer/"
+            target="_blank"
+            className="m-3"
+          >
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+          </a>
+          {'||'}
+          <a href="https://github.com/code-monkey713/" className="m-3">
+            {/* <FontAwesomeIcon icon={['fas', 'github']} /> */}
+            <i class="fab fa-github-square"></i> GitHub
+          </a>
+        </ul>
+      </div>
+    </nav>
   );
 };
-
-export default Footer;

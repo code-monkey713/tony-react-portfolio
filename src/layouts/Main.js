@@ -3,6 +3,7 @@ import cn from 'classnames'
 import { DARK, LIGHT } from '../constants/theme'
 import { useThemeContext } from '../store'
 import { NavBar } from '../components/NavBar'
+import { Footer } from '../components/Footer'
 import "../design/scss/_layout.scss"
 
 export const Main = () => {
@@ -15,6 +16,7 @@ export const Main = () => {
     })}>
       <NavBar />
       <Outlet />
+      <Footer />
     </div>
   )
 }

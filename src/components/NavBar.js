@@ -8,8 +8,8 @@ export const NavBar = () => {
   const location = useLocation()
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-${state.theme} bg-${state.theme} justify-content-between`}>
-      <Link className="navbar-brand" to="/">Awesome Dev!</Link>
+    <nav className={`navbar navbar-expand-md navbar-${state.theme} bg-${state.theme} justify-content-between`}>
+      <Link className="navbar-brand" to="/">Tony Tran</Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -29,6 +29,16 @@ export const NavBar = () => {
           <li className={cn('nav-item', {active: location.pathname === '/contact'})}>
             <Link className="nav-link" to="/contact">Contact{' '}
               {location.pathname === '/contact' && <span className="sr-only">(current)</span>}
+            </Link>
+          </li>
+          <li className={cn('nav-item', {active: location.pathname === '/about'})}>
+            <Link className="nav-link" to="/about">About{' '}
+              {location.pathname === '/about' && <span className="sr-only">(current)</span>}
+            </Link>
+          </li>
+          <li className={cn('nav-item', {active: location.pathname === '/resume'})}>
+            <Link className="nav-link" to="/resume">Resume{' '}
+              {location.pathname === '/resume' && <span className="sr-only">(current)</span>}
             </Link>
           </li>
         </ul>

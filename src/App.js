@@ -1,7 +1,4 @@
 import './App.css';
-// import NavBar from './components/Navbar';
-// import Darknav from './components/Darknav';
-// import NavTabs from './components/NavTabs';
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -36,6 +33,8 @@ const App = () => {
               <Route path="/" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resume" element={<Resume />} />
             </Route>
           </Routes>
         </BrowserRouter>
