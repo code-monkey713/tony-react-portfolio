@@ -14,27 +14,16 @@ import './design/scss/app.scss';
 
 const App = () => {
   return (
-    // <Router>
-    //   <div>
-    //     <NavTabs />
-    //     <Route exact path="/" component={Home} />
-    //     <Route exact path="/about" component={About} />
-    //     <Route exact path="/portfolio" component={Portfolio} />
-    //     <Route exact path="/contact" component={Contact} />
-    //     <Route exact path="/resume" component={Resume} />
-    //     <Footer />
-    //   </div>
-    // </Router>
     <ThemeProvider>
       <StoreProvider>
         <BrowserRouter>
           <Routes>
             <Route element={<Main />}>
-              <Route path="/" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/resume" element={<Resume />} />
+              <Route path='/' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/portfolio' element={<Portfolio />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/resume' element={<Resume />} />
             </Route>
           </Routes>
         </BrowserRouter>

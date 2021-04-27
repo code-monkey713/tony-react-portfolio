@@ -12,31 +12,31 @@ export const Footer = () => {
       className={`navbar navbar-expand navbar-${state.theme} bg-${state.theme} justify-content-between`}
     >
       <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        className='navbar-toggler'
+        type='button'
+        data-toggle='collapse'
+        data-target='#navbarSupportedContent'
+        aria-controls='navbarSupportedContent'
+        aria-expanded='false'
+        aria-label='Toggle navigation'
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className='navbar-toggler-icon'></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mx-auto">
+      <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+        <ul className='navbar-nav mx-auto'>
           <a
-            href="https://www.linkedin.com/in/tony-tran-developer/"
-            target="_blank"
-            className="m-3"
+            href='https://www.linkedin.com/in/tony-tran-developer/'
+            target='_blank'
+            className='m-3'
           >
-            <i class="fab fa-linkedin"></i>
+            <i class='fab fa-linkedin'></i>
             LinkedIn
           </a>
           {'||'}
-          <a href="https://github.com/code-monkey713/" className="m-3">
+          <a href='https://github.com/code-monkey713/' className='m-3'>
             {/* <FontAwesomeIcon icon={['fas', 'github']} /> */}
-            <i class="fab fa-github-square"></i> GitHub
+            <i class='fab fa-github-square'></i> GitHub
           </a>
         </ul>
       </div>
