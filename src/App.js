@@ -5,7 +5,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-// import Footer from './components/Footer';
+import Frame from './components/Frame';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { StoreProvider, ThemeProvider } from './store';
 import { Main } from './layouts/Main';
@@ -19,11 +19,13 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route element={<Main />}>
-              <Route path="/" element={<About />} />
+              
+              <Route path="/" element={<Home />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
+              
             </Route>
           </Routes>
         </BrowserRouter>

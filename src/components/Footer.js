@@ -1,43 +1,30 @@
 import { useThemeContext } from '../store';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Navbar, Nav } from 'react-bootstrap';
 
 export const Footer = () => {
   const [state] = useThemeContext();
 
   return (
-    <nav
-      className={`navbar navbar-expand navbar-${state.theme} bg-${state.theme}`}
+    <Navbar
+      className={`d-flex flex-column align-items-center align-horizontal navbar-${state.theme} bg-${state.theme}`}
+      // fixed="bottom"
     >
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mx-auto">
-          <a
-            href="https://www.linkedin.com/in/tony-tran-developer/"
-            rel="noreferrer"
-            target="_blank"
-            className="m-3"
-          >
-            <i class="fab fa-linkedin"></i>
-            LinkedIn
-          </a>
-          {'||'}
-          <a href="https://github.com/code-monkey713/" className="m-3">
-            {/* <FontAwesomeIcon icon={['fas', 'github']} /> */}
-            <i class="fab fa-github-square"></i> GitHub
-          </a>
-        </ul>
-      </div>
-    </nav>
+      <Nav.Item>
+        <a
+          href="https://www.linkedin.com/in/tony-tran-developer/"
+          rel="noreferrer"
+          target="_blank"
+          className="m-3"
+        >
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </Nav.Item>
+      © Tony Tran 💛
+      <Nav.Item>
+        <a href="https://github.com/code-monkey713/" className="m-3">
+          <i class="fab fa-github-square"></i> GitHub
+        </a>
+      </Nav.Item>
+    </Navbar>
   );
 };

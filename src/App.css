@@ -4,12 +4,11 @@
 
 body {
   margin: 0;
-  padding: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 .App {
@@ -24,10 +23,6 @@ code {
   background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.darkgreen {
-  color:darkgreen;
 }
 
 .home-grid {
@@ -58,5 +53,11 @@ code {
   width: 75%;
   margin: auto;
   border-radius: 10px;
+}
+
+.project-card-img-top {
+  height: auto;
+  width: auto;
+  object-fit: contain;
 }
 
