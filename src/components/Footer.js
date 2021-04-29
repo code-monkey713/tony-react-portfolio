@@ -1,15 +1,12 @@
-import { Link, useLocation } from 'react-router-dom';
-import cn from 'classnames';
 import { useThemeContext } from '../store';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Footer = () => {
   const [state] = useThemeContext();
-  const location = useLocation();
 
   return (
     <nav
-      className={`navbar navbar-expand navbar-${state.theme} bg-${state.theme} justify-content-between`}
+      className={`navbar navbar-expand navbar-${state.theme} bg-${state.theme}`}
     >
       <button
         className="navbar-toggler"
@@ -27,6 +24,7 @@ export const Footer = () => {
         <ul className="navbar-nav mx-auto">
           <a
             href="https://www.linkedin.com/in/tony-tran-developer/"
+            rel="noreferrer"
             target="_blank"
             className="m-3"
           >
