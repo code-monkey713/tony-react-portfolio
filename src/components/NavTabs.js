@@ -4,18 +4,18 @@ import { Link, useLocation } from 'react-router-dom';
 const NavTabs = () => {
   const location = useLocation();
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className='nav nav-tabs'>
+      <li className='nav-item'>
         <Link
-          to="/"
+          to='/'
           className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}
         >
           Home
         </Link>
       </li>
-      <li className="nav-item">
+      <li className='nav-item'>
         <Link
-          to="/about"
+          to='/about'
           className={
             location.pathname === '/about' ? 'nav-link active' : 'nav-link'
           }
@@ -23,9 +23,9 @@ const NavTabs = () => {
           About
         </Link>
       </li>
-      <li className="nav-item">
+      <li className='nav-item'>
         <Link
-          to="/portfolio"
+          to='/portfolio'
           className={
             location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'
           }
@@ -33,9 +33,9 @@ const NavTabs = () => {
           Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      <li className='nav-item'>
         <Link
-          to="/contact"
+          to='/contact'
           className={
             location.pathname === '/contact' ? 'nav-link active' : 'nav-link'
           }
@@ -43,9 +43,9 @@ const NavTabs = () => {
           Contact
         </Link>
       </li>
-      <li className="nav-item">
+      <li className='nav-item'>
         <Link
-          to="/resume"
+          to='/resume'
           className={
             location.pathname === '/resume' ? 'nav-link active' : 'nav-link'
           }
