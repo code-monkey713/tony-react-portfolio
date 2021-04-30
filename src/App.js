@@ -1,37 +1,39 @@
+import React, { Component } from 'react';
 import './App.css';
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-import Frame from './components/Frame';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { StoreProvider, ThemeProvider } from './store';
-import { Main } from './layouts/Main';
-// import { About, Contact, Portfolio } from './pages';
-import './design/scss/app.scss';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 
-const App = () => {
-  return (
-    <ThemeProvider>
-      <StoreProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route element={<Main />}>
-              
-              <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/resume" element={<Resume />} />
-              
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </StoreProvider>
-    </ThemeProvider>
-  );
-};
+class App extends Component {
+  render() {
+    return (
+      <div className="demo-big-content">
+    <Layout>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+            <Navigation>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Header>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+            <Main/>
+        </Content>
+    </Layout>
+</div>
+
+    );
+  }
+}
 
 export default App;
