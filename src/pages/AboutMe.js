@@ -23,6 +23,7 @@ const AboutMe = () => {
           <p>A copy of my resume on a PDF can be downloaded below!</p>
           <a
             href="https://drive.google.com/file/d/1ibrJqSWSje9SrGEKczY8QqMJHOk152R4/view?usp=sharing"
+            rel="noreferrer"
             target="_blank"
           >
             My Downloadable Resume
