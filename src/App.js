@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main';
+import Footer from './components/Footer';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
             className="header-color"
             title={
               <Link style={{ textDecoration: 'none', color: 'white' }} to="/">
-                MyPortfolio
+                Tony Tran
               </Link>
             }
             scroll
@@ -41,6 +42,7 @@ class App extends Component {
             <div className="page-content" />
             <Main />
           </Content>
+          <Footer />
         </Layout>
       </div>
     );
