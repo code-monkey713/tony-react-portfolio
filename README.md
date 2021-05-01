@@ -5,12 +5,12 @@ License: ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description 
 
-This application is built from create-react-app built from the ground up. This application is to demonstrate the magical thing that is called ReactJS. In this application, you will be looking at a table of random employees from [Random User API](https://randomuser.me/). This application demonstrate the use of components, manage component state, and responding to user events. 
+This is my portfolio using create-react-app and built with inspiration from my previous portfolio using bootstrap. This application is to demonstrate the use of components, manage component state, and react router. 
 
 Screenshots:
 
-![screenshot](./assets/screenshot-main.png)
-![screenshot](./assets/screenshot-search.png)
+![screenshot](./assets/screenshot-land.png)
+![screenshot](./assets/screenshot-project.png)
 
 ## Table of Contents
 
@@ -23,18 +23,17 @@ Screenshots:
 
 ## Installation
 
-You can use the deployed application at the link below. 
+You can use the deployed application at the link provided below. 
 
 ## Usage 
 
-Here are some features of this application. 
+You could contact me from my GitHub, LinkedIn or email me with the contact information below or on my deployed site. 
 
-  - user can sort the name, phone email, or date of birth by clicking on the column header
-  - user can search for specific employees with search function
-  - user can limit how many employees to show on the page at once
-  - employee table has pagination to load the employees by page
+  - I've include 6 projects on the portfolio and they are pinned on my repo
+  - Feel free to check out my repo for more projects
+  - Message me on LinkedIn or any other means if you want to contact me
 
-Deployed: https://code-monkey713.github.io/react-employee-directory/
+Deployed: 
 
 ## License
 
