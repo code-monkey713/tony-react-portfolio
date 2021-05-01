@@ -18,7 +18,7 @@ const AboutMe = () => {
                 <Card.Title>Bio</Card.Title>
                 <Card.Text>
                   Here is a brief history of my technical background and where I
-                  came to be today. I started in school to be in computer
+                  came to be today. I started school to study in the field of computer
                   networking and management information systems. After I
                   received my Associate Degree, I was unable to find a job
                   during the time as a network engineer or network
