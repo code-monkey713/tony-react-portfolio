@@ -39,4 +39,12 @@ export default [
     image: 'https://github.com/code-monkey713/Fitness-Tracker/raw/main/assets/screenshot-workout.png',
     description: 'This application is for keeping track of all your exercises for motivation to keep fit. This application comes with a dashboard to keep track of your progress and it will display the last seven exercises you had. ',
   },
+  {
+    id: 6,
+    title: 'Project 5 - Day Planner',
+    url: 'https://code-monkey713.github.io/day-planner/',
+    repository: 'https://github.com/code-monkey713/day-planner',
+    image: 'https://github.com/code-monkey713/day-planner/blob/main/images/screenshot-normal.png',
+    description: 'This application is for keeping track of all todo list of items for the day. The app will open up with your current date and time. Fill the time slots with items to accomplish for the day.',
+  },
 ];
