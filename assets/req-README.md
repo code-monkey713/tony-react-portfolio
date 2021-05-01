@@ -10,7 +10,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 * Use React -
 
-* A `Header` component that appears on multiple pages
+* A `Header` component that appears on multiple pages -
 
 * A single `Project` component that will be used multiple times on a single page -
 
@@ -83,7 +83,7 @@ Additionally, this new portfolio should be created using React. -
 
 At a minimum, your portfolio should include the following:
 
-* A `Header` component that appears on multiple pages 
+* A `Header` component that appears on multiple pages -
 
 * A single `Project` component that will be used multiple times on a single page -
 
