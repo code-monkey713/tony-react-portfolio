@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: monospace, 'Courier New', Courier, sans-serif; 
+  font-family: monospace, 'Courier New', Courier, sans-serif;
 }
 
 .header-color {
@@ -43,15 +43,6 @@ body {
   display: flex;
 }
 
-/* Resume Page css */
-.resume-right-col {
-  background: #27221F;
-  color: white;
-  padding: 2em;
-}
-
-/* contact page css */
-
 .contact-body {
   margin: auto;
   position: fixed;
@@ -91,9 +82,6 @@ body {
   padding-right: 5rem;
 }
 
-
-/* contact page css */
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -101,7 +89,7 @@ body {
 
 .banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -148,4 +136,3 @@ body {
   width: auto;
   object-fit: contain;
 }
-

@@ -13,11 +13,7 @@ const ProjectCard = (props) => {
       <Card.Body>
         <Card.Title>Description</Card.Title>
         <Card.Text>{props.description}</Card.Text>
-        <Button
-          variant="secondary"
-          href={props.repository}
-          className="mr-2"
-        >
+        <Button variant="secondary" href={props.repository} className="mr-2">
           {props.btn1}
         </Button>
         <Button variant="secondary" href={props.url} className="">
