@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tony-react-portfolio/static/css/main.07c4aedb.chunk.css",
+    "main.js": "/tony-react-portfolio/static/js/main.3b27384d.chunk.js",
+    "main.js.map": "/tony-react-portfolio/static/js/main.3b27384d.chunk.js.map",
+    "runtime-main.js": "/tony-react-portfolio/static/js/runtime-main.a02b21d0.js",
+    "runtime-main.js.map": "/tony-react-portfolio/static/js/runtime-main.a02b21d0.js.map",
+    "static/css/2.73cc2f71.chunk.css": "/tony-react-portfolio/static/css/2.73cc2f71.chunk.css",
+    "static/js/2.7a5f636c.chunk.js": "/tony-react-portfolio/static/js/2.7a5f636c.chunk.js",
+    "static/js/2.7a5f636c.chunk.js.map": "/tony-react-portfolio/static/js/2.7a5f636c.chunk.js.map",
+    "index.html": "/tony-react-portfolio/index.html",
+    "static/css/2.73cc2f71.chunk.css.map": "/tony-react-portfolio/static/css/2.73cc2f71.chunk.css.map",
+    "static/css/main.07c4aedb.chunk.css.map": "/tony-react-portfolio/static/css/main.07c4aedb.chunk.css.map",
+    "static/js/2.7a5f636c.chunk.js.LICENSE.txt": "/tony-react-portfolio/static/js/2.7a5f636c.chunk.js.LICENSE.txt",
+    "static/media/portrait-small.aa14b61c.png": "/tony-react-portfolio/static/media/portrait-small.aa14b61c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a02b21d0.js",
+    "static/css/2.73cc2f71.chunk.css",
+    "static/js/2.7a5f636c.chunk.js",
+    "static/css/main.07c4aedb.chunk.css",
+    "static/js/main.3b27384d.chunk.js"
+  ]
+}
