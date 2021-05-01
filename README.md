@@ -33,7 +33,7 @@ You could contact me from my GitHub, LinkedIn or email me with the contact infor
   - Feel free to check out my repo for more projects
   - Message me on LinkedIn or any other means if you want to contact me
 
-Deployed: 
+Deployed: https://code-monkey713.github.io/tony-react-portfolio
 
 ## License
 
