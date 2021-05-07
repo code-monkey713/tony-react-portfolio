@@ -1,7 +1,17 @@
 export default [
   {
     id: 1,
-    title: 'Project 1 - Theme Sudoku',
+    title: 'Project 1 - React Google Book Search',
+    url: 'https://google-book-picks.herokuapp.com/',
+    repository: 'https://github.com/code-monkey713/google-book-search',
+    image:
+      'https://github.com/code-monkey713/google-book-search/blob/main/assets/screenshot-saved.png?raw=true',
+    description:
+      'A ReactJS Google Books Search built from the ground up and using the Google Book API. You can view the book volume on Google Books, save the book information to MongoDB.',
+  },
+  {
+    id: 2,
+    title: 'Project 2 - Theme Sudoku',
     url: 'https://code-monkey713.github.io/theme-sudoku/',
     repository: 'https://github.com/code-monkey713/theme-sudoku',
     image:
@@ -10,8 +20,8 @@ export default [
       'Themed Sudoku is a new and innovative way for you to enjoy your Sudoku "brain building" skills, with some hilarious background images to tickle your funny bone.',
   },
   {
-    id: 2,
-    title: 'Project 2 - Innovate-Rx',
+    id: 3,
+    title: 'Project 3 - Innovate-Rx',
     url: 'https://innovate-rx.herokuapp.com/',
     repository: 'https://github.com/code-monkey713/Innovate-Rx',
     image:
@@ -20,8 +30,8 @@ export default [
       'This application simulates an Online Medical Visit Simulator for a small medical practice. In this case, the application serves as a website for a non-traditional (read "Innovative"!) treatment practice where the doctors specialize in their own brand of innovative treatments.',
   },
   {
-    id: 3,
-    title: 'Project 3 - React Employee Directory',
+    id: 4,
+    title: 'Project 4 - React Employee Directory',
     url: 'https://code-monkey713.github.io/react-employee-directory/',
     repository: 'https://github.com/code-monkey713/react-employee-directory',
     image:
@@ -30,8 +40,8 @@ export default [
       'This application is to demonstrate the magical thing that is called ReactJS. In this application, you will be looking at a table of random employees from Random User API. This application demonstrate the use of components, manage component state, and responding to user events.',
   },
   {
-    id: 4,
-    title: 'Project 4 - Weather API App',
+    id: 5,
+    title: 'Project 5 - Weather API App',
     url: 'https://code-monkey713.github.io/weather-side/',
     repository: 'https://github.com/code-monkey713/weather-side',
     image:
@@ -40,8 +50,8 @@ export default [
       'Weather app using Openweather API with 5-day forecast with search using city name or zip code. App was built with user in mind to get the weather for your favorite cities.',
   },
   {
-    id: 5,
-    title: 'Project 5 - Fitness Tracker',
+    id: 6,
+    title: 'Project 6 - Fitness Tracker',
     url: 'https://t-fitness-tracker.herokuapp.com/',
     repository: 'https://github.com/code-monkey713/Fitness-Tracker',
     image:
@@ -50,8 +60,8 @@ export default [
       'This application is for keeping track of all your exercises for motivation to keep fit. This application comes with a dashboard to keep track of your progress and it will display the last seven exercises you had. ',
   },
   {
-    id: 6,
-    title: 'Project 6 - Day Planner',
+    id: 7,
+    title: 'Project 7 - Day Planner',
     url: 'https://code-monkey713.github.io/day-planner/',
     repository: 'https://github.com/code-monkey713/day-planner',
     image:
